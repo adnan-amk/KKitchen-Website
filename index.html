@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kitchen Restaurant Website</title>
-
+    <!-- swipper link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <!-- font awesome Website cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
@@ -34,14 +35,61 @@
     </header>
     <!-- header section ends -->
 
-    <!-- from section start-->
+    <!-- form section start-->
     <form action="" id="search-form">
         <input type="search" name="" placeholder="search here..." id="search-box">
         <label for="search-box" class="fas fa-search"></label>
         <i class="fas fa-times" id="close"></i>
     </form>
-    <!-- from section ends -->
+    <!-- form section ends -->
 
+    <!-- Home section start -->
+    <section class="home" id="home">
+        <div class="swiper mySwiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our special dish</span>
+                        <h3>spicy noodles</h3>
+                        <p>Fiery, mouth-watering noodles with a kick of spice and tanginess.</p>
+                        <a href="#" class="btn">Order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/noodles.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our special dish</span>
+                        <h3>Hot pizza</h3>
+                        <p>Oven-fresh, cheesy pizza with a perfectly crispy crust and delectable toppings.</p>
+                        <a href="#" class="btn">Order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/hotPizza.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our special dish</span>
+                        <h3>Fried Chicken</h3>
+                        <p>Crispy, juicy chicken with a savory, satisfying flavor that delights the senses.</p>
+                        <a href="#" class="btn">Order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/friedChicken.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </section>
+    <!-- Home section ends -->
+
+    <!-- script of swipper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
     <!-- javascript file link -->
     <script src="js/script.js"></script>
