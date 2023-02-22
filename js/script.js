@@ -37,3 +37,28 @@ var swiper = new Swiper(".mySwiper", {
     prevEl: ".swiper-button-prev",
   },
   });
+
+
+  var swiper = new Swiper(".review-slider", {
+    spaceBetween: 500,
+    centeredSlides: true,
+    autoplay: {
+      delay: 7000,
+      disableOnInteraction: false,
+    },
+   loop:true,
+    brekpoints:{
+      0:{
+        slidePerView:1,
+      },
+      640:{
+        slidePerView:2,
+      },
+      768:{
+        slidePerView:3,
+      },
+      1024:{
+        slidePerView:4,
+      },
+    }
+  });
