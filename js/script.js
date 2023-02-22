@@ -55,10 +55,10 @@ var swiper = new Swiper(".mySwiper", {
         slidePerView:2,
       },
       768:{
-        slidePerView:3,
+        slidePerView:2,
       },
       1024:{
-        slidePerView:4,
+        slidePerView:3,
       },
     }
   });
